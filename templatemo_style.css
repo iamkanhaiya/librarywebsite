@@ -1,0 +1,333 @@
+/* design by kanhaiya sharma 
+email- ikanhaiyasharma@gmail.com */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 11px;
+	color: #ffffff;
+	background: #3399ff;
+}
+
+a:link, a:visited { color: blue; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: blue; text-decoration: underline;}
+marquee{
+color:red;
+font-size:20px;}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.cleaner_with_width {
+	float: left;
+	width: 20px;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.buy_now_button a{
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 100px;
+	padding: 4px 0 5px 0;
+	margin-bottom: 10px; 
+	background: url(images/templatemo_btn_02.jpg) no-repeat;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.detail_button a{
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 100px;
+	padding: 4px 0 5px 0;
+	margin-bottom: 10px; 
+	background: url(images/templatemo_btn_01.jpg) no-repeat;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#_container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+	
+}
+
+
+/* menu */
+
+#_menu {
+	clear: both;
+	width: 960px;
+	height: 45px;
+	background-color:#b3d9ff;
+}
+
+#_menu ul {
+	padding: 13px 0 0 0;
+	margin: 0;
+	list-style: none;
+}
+
+#_menu ul li{
+	display: inline;
+}
+
+#_menu ul li a{
+	float: left;
+	padding: 0 20px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+#_menu li a:hover, #templatemo_menu li .current{
+	color: yellow;
+}
+
+/* end of menu*/
+
+/* header */
+#_header {
+	clear: both;
+	width: 960px;
+	height: 285px;
+	padding: 0;
+	margin: 0;
+	background: url(images/svvvbanner.png),url(images/giphy.gif)  ;
+	
+	 background-repeat: no-repeat,no-repeat;
+	 background-color:white;
+}
+
+#_header a,a:hover {
+	color: #ffffff;
+}
+
+#_header #_special_offers {
+	float: left;
+	font-size: 14px;	
+	margin-top: 95px;
+	margin-left: 490px;
+	width: 180px;
+	color:red;
+}
+
+#_special_offers a {
+	font-size: 12px;
+}
+
+#_special_offers  p {
+	margin: 0 0 20px 0;
+}
+#_special_offers p span {
+	font-size: 18px;
+}
+
+#_header #_new_books {
+	float: left;
+	margin-top: 90px;	
+	margin-left: 55px;
+	width: 180px;
+	color:blue;
+}
+
+#_new_books ul {
+	 margin: 0 0 10px 0;
+	 padding: 0 0 0 20px;
+}
+
+#_new_books li {
+	 margin: 0;
+	 padding: 0; 
+}
+#_new_books a {
+color:red;
+}
+
+
+/* end of header */
+
+
+/* content */
+#_content {
+	clear: both;
+	width: 920px;
+	padding: 0 20px;
+}
+
+#_content #_content_left {
+	float: left;
+	width: 188px;
+	padding: 10px;
+	background-color: black;
+	border: 1px solid #212120;
+}
+
+#_content #_content_right {
+	float: right;
+	width: 670px;
+}
+
+
+#_content_left ._content_left_section{
+	clear: both;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #2b2b2a;
+	margin-bottom: 20px;
+}
+
+._content_left_section h1 {
+	font-size: 14px;
+	color: white;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #cbc750;
+}
+
+._content_left_section ul {
+	padding: 0;
+	margin: 0;
+}
+
+._content_left_section ul li{
+	padding: 0 0 3px 10px;	
+	list-style: none;
+}
+
+._content_left_section ul li a{
+	font-weight: normal;
+	text-decoration: none;
+	color: white;
+}
+
+._content_left_section li a:hover, ._content_left_section li .current{
+	color: #fcf88e;
+}
+
+
+
+
+
+#_content_right ._product_box {
+	float: left;
+	width: 303px;
+	height: 210px;
+	padding: 10px;
+	border: 1px solid #333;
+	background-color:white;
+	
+}
+
+#_content_right h1 {
+	padding: 10px;
+	margin: 0 0 20px 0;
+	font-size: 15px;
+	color: blue;
+	background-color:white;
+}
+
+#_content_right h2 {
+	padding: 0 0 0 0;
+	margin: 0 0 20px 0;
+	font-size: 12px;
+	color: #e6e154;
+}
+
+#_content_right h3 {
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-size: 18px;
+	color: #85391f;
+}
+
+#_content_right ul {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 20px;
+	list-style: none;
+}
+
+#_content_right li {
+	padding: 0 0 3px 0;
+}
+
+#_content_right .image_panel {
+	float: left;
+	width: 100px;
+	margin-right: 20px;
+}
+
+#_content_right p {
+	text-align: justify;
+	padding: 0 0 8px 0;
+	color:black;
+}
+
+._product_box h1 span {
+	font-weight: normal;
+}
+
+._product_box img {
+	float: left;
+	margin-right: 20px;
+}
+
+._product_box .product_info {
+	float: left;
+	width: 180px;
+}
+
+.product_info p {
+	margin-bottom: 15px;
+}
+
+/* end of content */
+
+/* footer */
+#_footer {
+	clear: both;
+	width: 960px;
+	padding: 20px 0px 20px 0;
+	text-align: center;
+	border-top: 1px solid #25211e;
+	color: #999;
+	background-color:black;
+}
+
+#_footer a{
+	color: #fff;
+	font-weight: normal;
+}
+/* end of footer */
